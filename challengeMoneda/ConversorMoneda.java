@@ -47,13 +47,6 @@ public class ConversorMoneda {
 		
 		JPanel panel = new JPanel();
 		frame.getContentPane().add(panel, BorderLayout.CENTER);
-		
-		JButton btnNewButton = new JButton("Apreta aca wachin");
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		panel.add(btnNewButton);
 	}
 
 }
