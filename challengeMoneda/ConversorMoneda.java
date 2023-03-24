@@ -3,7 +3,7 @@ package challengeMoneda;
 import java.text.DecimalFormat;
 import javax.swing.JOptionPane;
 
-public class ConversorMoneda implements Continuable {
+public class ConversorMoneda {
 
 	public static final double DOLAR_BLUE = 394.00;
 	public static final double EURO = 415.00;
@@ -194,8 +194,8 @@ public class ConversorMoneda implements Continuable {
 		}
 
 	}
+
 	
-	@Override
 	public void continuar() {
 		int opcionConfirmacion = JOptionPane.showConfirmDialog(null, "¿Desea continuar?");
 		if (opcionConfirmacion == 0) {

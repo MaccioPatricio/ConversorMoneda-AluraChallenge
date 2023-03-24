@@ -1,0 +1,1 @@
+jar cfm Proyecto_Conversor_de_moneda.jar MANIFEST.MF ConversorMonedaTest.class
