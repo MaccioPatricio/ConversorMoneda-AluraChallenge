@@ -25,6 +25,7 @@ public class ConversorMoneda {
 
 	private void menu() {
 		try {
+			JOptionPane.showMessageDialog(null, "Bienvenido al conversor de unidades.");
 			opcionSeleccionada = JOptionPane.showInputDialog(null, "Seleccione una opción de conversión", "Opciones",
 					JOptionPane.PLAIN_MESSAGE, null, opciones, opciones[0]).toString();
 			seleccionConversor();
@@ -56,9 +57,9 @@ public class ConversorMoneda {
 			DecimalFormat formato = new DecimalFormat("#.##");
 			String inputFormateado;
 
-			String[] opciones2 = { "De pesos a Dólar", "De pesos a Euros", "De pesos a Libras Esterlinas",
-					"De pesos a Yen Japónes", "De pesos a Won coreano", "De Dólar a pesos", "De Euros a pesos",
-					"De Libras Esterlinas a pesos", "De Yen Japones a Pesos", "De Won coreano a pesos" };
+			String[] opciones2 = { "De pesos argentinos a Dólar", "De pesos argentinos a Euros", "De pesos argentinos a Libras Esterlinas",
+					"De pesos argentinos  a Yen Japónes", "De pesos argentinos a Won coreano", "De Dólar a pesos argentinos", "De Euros a pesos argentinos",
+					"De Libras Esterlinas a pesos argentinos", "De Yen Japones a Pesos argentinos", "De Won coreano a pesos argentinos" };
 
 			String opcionMoneda = JOptionPane.showInputDialog(null, "Monedas", "Opciones", JOptionPane.PLAIN_MESSAGE,
 					null, opciones2, opciones2[0]).toString();
